@@ -1,0 +1,43 @@
+{
+    "name": "acute-express-controllers",
+    "description": "An aCute app plugin for using controllers that use express-like router objects",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "author": {
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sax1johno/acute-express-controllers.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sax1johno/acute-express-controllers/issues"  
+    },
+    "keywords": [
+        "acute",
+        "data",
+        "mongoose",
+        "mongodb",
+        "mongo"
+    ],
+    "contributors": [{
+        "name": "John O'Connor",
+        "email": "sax1johno@gmail.com"
+    }],
+    "license": "MIT",
+    "dependencies": {
+        "express": ">4.0",
+        "async": "*",
+        "underscore": "*",
+        "architect": "*",
+        "path": "*"
+    },
+    "scripts": {
+        "generate": "node lib/generator.js"
+    },
+    "plugin": {
+        "provides": ["controllers"],
+        "consumes": ["utils", "app"]
+    }
+}
