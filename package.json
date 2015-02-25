@@ -1,7 +1,7 @@
 {
   "name": "acute-express-controllers",
   "description": "An aCute app plugin for using controllers that use express-like router objects",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "author": "John O'Connor <sax1johno@gmail.com>",
   "repository": {
