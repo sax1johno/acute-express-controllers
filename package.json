@@ -27,7 +27,9 @@
     "async": "*",
     "underscore": "*",
     "architect": "*",
-    "path": "*"
+    "path": "*",
+    "findit": "*",
+    "q": "*"
   },
   "scripts": {
     "generate": "node lib/generator.js"
