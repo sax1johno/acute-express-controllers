@@ -47,7 +47,7 @@ describe('utils', function() {
     describe("#load", function() {
         it("should add a controller to the controllers", function(done) {
             var serviceObject = app.getService("controllers");
-            serviceObject.load(function(err) {
+            serviceObject.load(app, function(err) {
                 if (err) {
                     done(err);
                 } else {
