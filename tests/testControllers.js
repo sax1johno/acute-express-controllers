@@ -55,5 +55,5 @@ describe('utils', function() {
                 }
             });
         });
-    });    
+    });
 });

@@ -13,13 +13,17 @@
  * 
  * The export returns an object with the router and optional config. 
 **/
-module.exports = function(router) {
+module.exports = function(router, injector) {
    // ex: set up a main responding method.
    var index = function(req, res, next) {
        res.send({"success": "Made it happen"});
    }
    
    router.all("/", index);
+   
+   // var app = injector.getService('app');
+   
+   // console.log("app = ", app);
    
    return {
       router: router
